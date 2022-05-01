@@ -1,0 +1,57 @@
+git commands 
+
+four stages from local to remote
+1.Local // creat a file
+2.Staging area// git add file_name/ git add .
+3.Commit// git commit -m "Message"
+4.Push to remote // GIT PUSH ORIGIN BranchName
+
+git fetch : to fetch the changes made on remote to local
+
+Branch :
+git branch -- // which branch you are working on
+git checkout branch_name  //  to change branch at local 
+git  checkout -b  BRANCHnAME // to create a new branch and switch to that branch
+
+
+step 1.create folder on drive
+step 1.git init 
+step 1.git status
+step 1.git add file.txt file.txt
+step 1.git status
+step 1.git config --global user.email "kubarbade@gmail.com"
+step 1.git config --global user.name "KumarBarbade"
+step 1.git commit -m "my first commit"
+step 1.git commit -a -m "comment"
+
+
+to view available branches
+git branch 
+git status
+
+to create new branch
+git branch branch_name
+git branch
+ 
+switch to from one branch to another 
+git checkout branch_name
+git branch
+
+creating and switching to branch
+git checkout -b branch_name
+
+touch b.txt c.txt
+ls
+git add b.txt c.txt;git commit -m "b.txt c.txt added"
+git ls-files 
+git log --oneline
+
+git add.
+git commit -m 'updated files'
+
+
+
+
+
+
+
